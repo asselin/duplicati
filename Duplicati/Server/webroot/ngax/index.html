@@ -170,6 +170,8 @@
 
                         <progress-bar ng-text="StateText" ng-progress="Progress"></progress-bar>
 
+                        <div style="font-size: 14px;">Backing up: {{state.lastPgEvent.CurrentFilename}}</div>
+
                     </div>
 
                     <div ng-show="activeBackup == null &amp;&amp; state.activeTask != null">
